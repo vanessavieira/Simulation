@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, /home/vany/Simulacao/test/BinarySimulation.bdf
+source_file = 1, /home/vany/Simulacao/test/WaveformBinarySequence.vwf
+source_file = 1, /home/vany/Simulacao/test/BinarySimulation.vwf
+source_file = 1, /home/vany/Simulacao/test/db/BinarySimulation.cbx.xml
+design_name = BinarySimulation
+instance = comp, \clk~I , clk, BinarySimulation, 1
+instance = comp, \clk~clkctrl , clk~clkctrl, BinarySimulation, 1
+instance = comp, \inst9~0 , inst9~0, BinarySimulation, 1
+instance = comp, \reset~I , reset, BinarySimulation, 1
+instance = comp, \reset~clkctrl , reset~clkctrl, BinarySimulation, 1
+instance = comp, \a~I , a, BinarySimulation, 1
+instance = comp, \s1~I , s1, BinarySimulation, 1
+instance = comp, \s0~I , s0, BinarySimulation, 1
+instance = comp, \Y~I , Y, BinarySimulation, 1
